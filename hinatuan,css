@@ -1,0 +1,87 @@
+/* General container styling */
+.container, .container2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Left pane styling */
+.left-pane {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    padding-top: 120px;
+}
+
+/* Right pane styling */
+.right-pane {
+    flex: 1;
+}
+
+/* Title styling */
+.title {
+    margin-bottom: 10px;
+    font-family: arial, sans-serif;
+}
+
+/* Paragraph container styling */
+.p-container {
+    margin-top: 20px;
+}
+
+/* Paragraph styling */
+.paragraph1 {
+    font-family: arial, sans-serif;
+}
+
+/* Container for food sections */
+.container2 {
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 800px;
+    justify-content: center;
+    float: left;
+}
+
+/* Title for food section */
+.title2 {
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Individual food items styling */
+.food-item {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+}
+
+/* Image styling for food items */
+.food-item img {
+    width: 50%; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 30px; /* Space between image and text */
+}
+
+/* Container for title and description */
+.food-text {
+    display: flex;
+    flex-direction: column;
+    font-family: arial, sans-serif;
+}
+
+/* Title for individual food items */
+.food-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Description for individual food items */
+.food-desc {
+    font-size: 1em;
+    line-height: 1.5;
+    max-width: 600px; /* Adjust as needed */
+}
